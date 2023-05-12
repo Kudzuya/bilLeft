@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0);
+}
+
+.leftP {
+    padding: 150px 0px;
+
+    & .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0px 20px;
+    }
+
+
+    &__big {
+        display: flex;
+        flex-direction: column;
+        max-width: 280px;
+        border: 1.32857px solid #FFFFFF;
+        border-radius: 2.65714px;
+
+        &_titleDiv {
+            border-bottom: 1.32857px solid #FFFFFF;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &_title {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18.6px;
+                line-height: 29px;
+                color: #FFFFFF;
+                margin-bottom: 20px;
+            }
+        }
+
+        &_otDo{
+            border-bottom: 1.32857px solid #FFFFFF;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 15px 30px;
+
+
+            &_inps{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &_input{
+                    width: 45%;
+                    height: 50px;
+                    background: rgba(255, 255, 255, 0.5);
+                    border: 1.32857px solid #FFFFFF;
+                    border-radius: 2.65714px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15.9429px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                    padding-left: 5px;
+                    cursor: pointer;
+
+                    &::-webkit-inner-spin-button {
+                        -webkit-appearance: none;
+                        margin: 0;
+                    }
+
+                    &::placeholder{
+                        color: white;
+                        letter-spacing: 1px;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15.9429px;
+                        line-height: 24px;
+                    }
+                }
+                &_pshka{
+                    color: #FFFFFF;
+                    margin: 0px 5px;
+                    
+                }
+            }
+        }
+        
+        &_type{
+            height: 307px;
+            border-bottom: 1.32857px solid #FFFFFF;
+            padding: 15px 30px;
+            
+
+            &_punkts{
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+                color: #FFFFFF;
+                margin-bottom: 10px;
+                margin-left: 30px;
+            }
+        }
+    }
+}
